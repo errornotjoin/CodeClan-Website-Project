@@ -2,6 +2,19 @@ body
 {
     background-color: #5c5c5c;
 }
+a
+{
+    color: snow;
+    
+}
+a:active
+{
+    color: chocolate;
+}
+a::after
+{
+    color: black;
+}
 .Main_Items
 {
     background-color: #840606 ;
@@ -12,7 +25,7 @@ body
     font-size: larger;
 
 }
-.Main_Items input
+.Main_Items input, .Main_Items button
 {
     background-color: #1b0ca2;
     color: snow;

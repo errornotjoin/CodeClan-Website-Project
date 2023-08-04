@@ -17,8 +17,9 @@
     margin-bottom: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 0px 5px 10px black;
 }
-.Main_Items input
+.Main_Items input, .Main_Items button
 {
     width: 95%;
     height: 50px;
@@ -31,5 +32,5 @@
     display: flex;
     flex-direction: row;
     width: 95%;
-    gap: 10%;
+    gap: 30%;
 }
