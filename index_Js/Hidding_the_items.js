@@ -2,9 +2,11 @@ var t = 4
 var Empyt_Items = "Main_Items_"
 var The_input_item = document.getElementById("Looking_for_the_items")
 var Save_The_Name_of_The_Food_Place = ""
-function Truning_all_off(Numbers, Meun )
+var The_Text_i_need = document.getElementById("The_Text_i_need")
+function Truning_all_off(Numbers, Meun)
 {
     Save_The_Name_of_The_Food_Place = Meun
+    The_Text_i_need.textContent = "What Food Do You What From "+ Save_The_Name_of_The_Food_Place
     for(var x = 0; x <= t; x++)
     {
         var Meun_items = document.getElementById(Empyt_Items + x)
@@ -23,13 +25,12 @@ function Truning_all_off(Numbers, Meun )
 }
 function Food_Find_name_oF_that_Thing(The_Name_Holders)
 {
-    for(var y = 0; y <= 6; y++)
+    for(var y = 0; y <=7; y++)
     {
         var The_Name_Holder = document.getElementById("The_Name_Holder_" +  y )
         var Meun_items = document.getElementById("Place_Name_" + y)
         if(Meun_items.textContent == The_input_item.value || The_Name_Holders == true)
         {
-           
             The_Name_Holder.style.display = "inline-block"
         }
         else
