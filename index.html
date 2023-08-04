@@ -25,8 +25,6 @@
                     <button  onclick="Truning_all_off(1)">Submit</button>
                 </div>
             </form> 
-            <!--The Input Need To Be Out Of The Form Becuasu They Will restet The Website/looking for something-->
-
             <footer>
                 <p>Don't have An Account, Why Not Make One <a href="Creat_An_Account.html">Creat An Account</a></p>
             </footer>
@@ -40,10 +38,10 @@
                     <button onclick="Truning_all_off(2)">
                         Home delivery
                     </button>
-                    <button onclick="Truning_all_off(4)">
+                    <button onclick="Truning_all_off(3)">
                         You Can Come To Use 
                     </button>
-                    <button onclick="Truning_all_off(4)">
+                    <button onclick="Truning_all_off(3)">
                         Skip For Now 
                     </button>
                 </section>
@@ -59,8 +57,8 @@
                     <form >
                         <input style="text-align: center;" placeholder="Put Your address Here" required minlength="3" type="text">
                         <div id="Buttons_Need_to_move">
-                            <button>Back</button>
-                            <button>Next</button>
+                            <button onclick="Truning_all_off(1)">Back</button>
+                            <button onclick="Truning_all_off(3)">Next</button>
                         </div>
 
                     </form>
@@ -74,11 +72,25 @@
                     <h2>Where Are You Getting Your Food</h2>
                 </header>
                 <section>
-                    <input type="search">
-                    <input type="button">
-                    <div>
-
-                    </div>
+                    <input type="search" placeholder="What Shop Are You Looking For?">
+                    <header id="Food_Items">
+                        <button>Cost</button>
+                        <div></div>
+                        <button>far</button>
+                        <div></div>
+                        <button>Stars </button>
+                        <div></div>
+                        <button>Other</button>
+                    </header>
+                    <section id="Shop_finder_Place">
+                        <button><h2>The Name</h2> <p>Cost: £2-> </p><p>10Min </p></button>
+                        <button><h2>The Name</h2> <p>Cost: £21-> </p><p>5Min </p></button>
+                        <button><h2>The Name</h2> <p>Cost: £2---> </p><p>15Min </p></button>
+                        <button><h2>The Name</h2> <p>Cost: £12---> </p><p>20Min </p></button>
+                        <button><h2>The Name</h2> <p>Cost: £1-> </p><p>1hr </p></button>
+                        <button><h2>The Name</h2> <p>Cost: £4-> </p><p>5min </p></button>
+                        
+                    </section>
                 </section>
                 <footer>
                     Something Not Working, You Can GoTo <a href="help.html">help Page </a>
@@ -88,13 +100,13 @@
                 <header>What Food You Getting</header>
                 <section>
                         <header id="Food_Items">
-                            <span>Pizzas</span>
+                            <button>Pizzas</button>
                             <div></div>
-                            <span>Burgers</span>
+                            <button>Burgers</button>
                             <div></div>
-                            <span>Wirps</span>
+                            <button>Wirps</button>
                             <div></div>
-                            <span>Other</span>
+                            <button>Other</button>
                         </header>
                         <section id="Food_Items_0">
 
