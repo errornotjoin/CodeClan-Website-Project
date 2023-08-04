@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 10%;
     margin-left: 25%;
-    margin-top: 130px;
+    margin-top: 50px;
     border-radius: 10px;
     font-family: Victor Mono;
     box-shadow: 10px 10px 10px black;
@@ -68,14 +68,17 @@ footer
     height: 30px;
     background-color: black;
 }
+#Shop_finder_Place
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
 #Shop_finder_Place button
 {
-    display: flex;
-    gap: 30%;
-    text-align: center;
-    justify-content: center;
+    height: 100px;
 }
-input
+#The_Buttons_to_move
 {
-    text-align: center;
+    display: flex;
 }
