@@ -11,7 +11,7 @@
 <body>
 
     <main>
-        <section class="Main_Items" style="display: none;">
+        <section class="Main_Items" id="Main_Items_0" style="display: none;">
             <header>
                 <h2>Log in</h2>
             </header>
@@ -21,7 +21,6 @@
                     <input placeholder="Enter Your Password" type="password" minlength="10" required>
                 </div>
                 <div id="Small_button">
-                        
                     <input type="reset">
                     <input type="submit"> 
                 </div>
@@ -31,9 +30,9 @@
             </footer>
         </section>
 
-        <section class="Main_Items" style="display: none;">
+        <section  id="Main_Items_1" class="Main_Items" style="display: none;">
                 <header>
-                    How You Getting It 
+                    <h2>How You Getting It </h2>
                 </header>
                 <section>
                     <button>
@@ -50,27 +49,67 @@
                     Do You Need Some Help, Just GoTo <a href="help.html">help Page </a>
                 </footer>
         </section>
-        <section class="Main_Items">
+        <section  id="Main_Items_2" class="Main_Items" style="display:none ;">
                 <header>
-                    Where Do You Live?
+                    <h2>Where Do You Live?</h2> 
                 </header>
                 <section>
-                    <form>
-                        <input type="text">
-                        <div id="Put_Items_In_Here">
-
+                    <form >
+                        <input style="text-align: center;" placeholder="Put Your address Here" required minlength="3" type="text">
+                        <div id="Buttons_Need_to_move">
+                            <button>Back</button>
+                            <button>Next</button>
                         </div>
+
                     </form>
                     <footer>
-                      Can't find Your address, You Can GoTo <a href="help.html">help Page </a>
+                        Something Not Working, You Can GoTo <a href="help.html">help Page </a>
                     </footer>
                 </section>
         </section>
-        <section class="Main_Items">
+        <section id="Main_Items_3" class="Main_Items" style="display: none;">
+                <header>
+                    <h2>Where Are You Getting Your Food</h2>
+                </header>
+                <section>
+                    <input type="search">
+                    <input type="button">
+                    <div>
 
+                    </div>
+                </section>
+                <footer>
+                    Something Not Working, You Can GoTo <a href="help.html">help Page </a>
+                </footer>
         </section>
-        <section class="Main_Items">
+        <section id="Main_Items_4" class="Main_Items">
+                <header>What Food You Getting</header>
+                <section>
+                        <header id="Food_Items">
+                            <span>Pizzas</span>
+                            <div></div>
+                            <span>Burgers</span>
+                            <div></div>
+                            <span>Wirps</span>
+                            <div></div>
+                            <span>Other</span>
+                        </header>
+                        <section id="Food_Items_0">
 
+                        </section>
+                        <section id="Food_Items_1">
+
+                        </section>
+                        <section id="Food_Items_2">
+
+                        </section>
+                        <section id="Food_Items_3">
+
+                        </section>
+                </section>
+                <footer>
+                    food Item Not Add, Just Goto <a href="help.html">Help Page</a>
+                </footer>
         </section>
     </main>
     <script src="index_Js/Hidding_the_items.js">

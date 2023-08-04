@@ -1,6 +1,7 @@
 body
 {
     background-color: #5c5c5c;
+    color: snow;
 }
 a
 {
@@ -19,7 +20,7 @@ a::after
 {
     background-color: #840606 ;
 }
-.Main_Items header
+.Main_Items header, footer
 {
     background-color: #0949AA;
     font-size: larger;
