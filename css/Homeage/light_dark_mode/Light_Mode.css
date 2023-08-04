@@ -1,0 +1,20 @@
+body
+{
+    background-color: #5c5c5c;
+}
+.Main_Items
+{
+    background-color: #840606 ;
+}
+.Main_Items header
+{
+    background-color: #0949AA;
+    font-size: larger;
+
+}
+.Main_Items input
+{
+    background-color: #1b0ca2;
+    color: snow;
+
+}
