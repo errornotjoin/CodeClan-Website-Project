@@ -18,3 +18,10 @@ body
     color: snow;
 
 }
+::placeholder
+{
+    color: snow;
+    opacity: 1;
+    font-size: larger;
+    text-align: center;
+}
